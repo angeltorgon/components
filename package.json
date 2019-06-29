@@ -1,0 +1,16 @@
+{
+  "name": "@wurde/components",
+  "version": "0.1.0",
+  "description": "React components.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wurde/components.git"
+  },
+  "keywords": ["react", "react-component"],
+  "author": "Andy Bettisworth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wurde/components/issues"
+  },
+  "homepage": "https://github.com/wurde/components#readme"
+}
