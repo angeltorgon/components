@@ -37,7 +37,8 @@
     "react-dom": "^16.8.6",
     "style-loader": "^0.23.1",
     "webpack": "^4.35.3",
-    "webpack-cli": "^3.3.5"
+    "webpack-cli": "^3.3.5",
+    "webpack-node-externals": "^1.7.2"
   },
   "files": [
     "dist"

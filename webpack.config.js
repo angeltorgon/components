@@ -3,6 +3,7 @@
  */
 
 const path = require('path')
+const webpack_node_externals = require('webpack-node-externals')
 
 /**
  * Export config
@@ -15,6 +16,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js'
   },
+  externals: [webpack_node_externals()],
   module: {
     rules: [
       {
