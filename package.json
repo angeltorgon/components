@@ -5,6 +5,7 @@
   "private": false,
   "main": "dist/index.js",
   "scripts": {
+    "prebuild": "rimraf build",
     "build": "webpack",
     "prepublish": "npm run build"
   },
@@ -36,6 +37,7 @@
     "css-loader": "^3.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "rimraf": "^2.6.3",
     "style-loader": "^0.23.1",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5",
