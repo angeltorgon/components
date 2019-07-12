@@ -10,7 +10,7 @@ import React from 'react';
 
 function Link() {
   return (
-    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
   )
 };
 
