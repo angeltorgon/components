@@ -8,9 +8,9 @@ import React from 'react';
  * Define component
  */
 
-function Link() {
+function Link(props) {
   return (
-    <a href="#">Link</a>
+    <a href="#">{props.children}</a>
   )
 };
 
