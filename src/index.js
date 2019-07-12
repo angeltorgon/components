@@ -1,13 +1,5 @@
 // export { default as Link } from './components/Link';
 
-/**
- * Dependencies
- */
-
-import Link from './components/Link/Link';
-
-/**
- * Export
- */
-
-export default Link
+module.exports = (args) => {
+  console.log(`Hello ${args}`)
+}

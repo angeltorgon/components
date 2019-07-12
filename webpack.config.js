@@ -12,7 +12,7 @@ const webpack_node_externals = require('webpack-node-externals')
  */
 
 module.exports = {
-  mode: 'production',
+  mode: 'development', // 'production',
   entry: path.resolve(__dirname, './src/index'),
   output: {
     path: path.resolve(__dirname, 'dist'),
