@@ -6,10 +6,10 @@ Object.defineProperty(exports, "__esModule", {
 Object.defineProperty(exports, "Link", {
   enumerable: true,
   get: function get() {
-    return _index["default"];
+    return _Link["default"];
   }
 });
 
-var _index = _interopRequireDefault(require("./Link/index"));
+var _Link = _interopRequireDefault(require("./components/Link"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
