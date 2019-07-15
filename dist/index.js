@@ -3,29 +3,13 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = void 0;
+Object.defineProperty(exports, "Link", {
+  enumerable: true,
+  get: function get() {
+    return _Link["default"];
+  }
+});
 
-var _react = _interopRequireDefault(require("react"));
+var _Link = _interopRequireDefault(require("./Link"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
-
-/**
- * Dependencies
- */
-
-/**
- * Define component
- */
-function Link() {
-  return _react["default"].createElement("a", {
-    href: "#"
-  }, "Link 2");
-}
-
-;
-/**
- * Export component
- */
-
-var _default = Link;
-exports["default"] = _default;
