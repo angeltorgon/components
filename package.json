@@ -1,12 +1,12 @@
 {
   "name": "@wurde/components",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "React components.",
   "private": false,
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rimraf build",
-    "build": "webpack",
+    "build": "babel index.js --out-dir dist",
     "prepublish": "npm run build"
   },
   "repository": {
