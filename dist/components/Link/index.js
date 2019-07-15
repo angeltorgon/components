@@ -3,13 +3,11 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "Link", {
-  enumerable: true,
-  get: function get() {
-    return _Link["default"];
-  }
-});
+exports["default"] = void 0;
 
 var _Link = _interopRequireDefault(require("./Link"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+var _default = _Link["default"];
+exports["default"] = _default;

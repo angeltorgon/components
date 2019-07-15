@@ -1,1 +1,1 @@
-export { default as Link } from './Link/index';
+export { default as Link } from './components/Link';
