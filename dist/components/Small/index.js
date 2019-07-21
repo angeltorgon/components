@@ -5,9 +5,9 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
-var _Heading = _interopRequireDefault(require("./Heading"));
+var _Small = _interopRequireDefault(require("./Small"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-var _default = _Heading["default"];
+var _default = _Small["default"];
 exports["default"] = _default;
