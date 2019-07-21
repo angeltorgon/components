@@ -21,8 +21,8 @@ describe('Strong.js', () => {
     render(<Strong />);
   });
 
-  test('it displays "Click me"', () => {
-    const { getByText } = render(<Strong>Click me</Strong>);
-    getByText('Click me');
+  test('it displays "Read me"', () => {
+    const { getByText } = render(<Strong>Read me</Strong>);
+    getByText('Read me');
   });
 });

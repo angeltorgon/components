@@ -1,3 +1,3 @@
 # Code
 
-This is a simple code tag.
+This is a fragment of computer code.

@@ -21,8 +21,8 @@ describe('Paragraph.js', () => {
     render(<Paragraph />);
   });
 
-  test('it displays "Click me"', () => {
-    const { getByText } = render(<Paragraph>Click me</Paragraph>);
-    getByText('Click me');
+  test('it displays "Read me"', () => {
+    const { getByText } = render(<Paragraph>Read me</Paragraph>);
+    getByText('Read me');
   });
 });

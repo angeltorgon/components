@@ -1,3 +1,3 @@
 # Pre
 
-This is a simple pre tag.
+This is a block of preformatted text.

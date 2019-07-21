@@ -21,8 +21,8 @@ describe('Code.js', () => {
     render(<Code />);
   });
 
-  test('it displays "Click me"', () => {
-    const { getByText } = render(<Code>Click me</Code>);
-    getByText('Click me');
+  test('it displays "Read me"', () => {
+    const { getByText } = render(<Code>console.log("Hello world")</Code>);
+    getByText('console.log("Hello world")');
   });
 });

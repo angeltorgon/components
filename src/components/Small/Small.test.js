@@ -21,8 +21,8 @@ describe('Small.js', () => {
     render(<Small />);
   });
 
-  test('it displays "Click me"', () => {
-    const { getByText } = render(<Small>Click me</Small>);
-    getByText('Click me');
+  test('it displays "Read me"', () => {
+    const { getByText } = render(<Small>Read me</Small>);
+    getByText('Read me');
   });
 });

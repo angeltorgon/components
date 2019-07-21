@@ -21,8 +21,8 @@ describe('Pre.js', () => {
     render(<Pre />);
   });
 
-  test('it displays "Click me"', () => {
-    const { getByText } = render(<Pre>Click me</Pre>);
-    getByText('Click me');
+  test('it displays "Read me"', () => {
+    const { getByText } = render(<Pre>Read me</Pre>);
+    getByText('Read me');
   });
 });
