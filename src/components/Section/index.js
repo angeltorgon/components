@@ -1,3 +1,3 @@
-import Small from './Small';
+import Section from './Section';
 
-export default Small;
+export default Section;

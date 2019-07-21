@@ -1,3 +1,3 @@
-import Heading from './Heading';
+import Image from './Image';
 
-export default Heading;
+export default Image;

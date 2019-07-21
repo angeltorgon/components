@@ -1,3 +1,3 @@
-import Heading from './Heading';
+import Video from './Video';
 
-export default Heading;
+export default Video;

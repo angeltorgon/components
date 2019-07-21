@@ -8,9 +8,9 @@ import React from 'react';
  * Define component
  */
 
-function Small(props) {
+function Audio(props) {
   return (
-    <small>{props.children}</small>
+    <audio src={props.src}>{props.children}</audio>
   )
 };
 
@@ -18,4 +18,4 @@ function Small(props) {
  * Export component
  */
 
-export default Small;
+export default Audio;

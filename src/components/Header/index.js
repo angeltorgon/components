@@ -1,3 +1,3 @@
-import Small from './Small';
+import Header from './Header';
 
-export default Small;
+export default Header;

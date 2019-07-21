@@ -1,3 +1,3 @@
-# Heading
+# Image
 
-These are headings for their sections.
+This is an image.

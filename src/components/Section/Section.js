@@ -8,9 +8,9 @@ import React from 'react';
  * Define component
  */
 
-function Small(props) {
+function Section(props) {
   return (
-    <small>{props.children}</small>
+    <section>{props.children}</section>
   )
 };
 
@@ -18,4 +18,4 @@ function Small(props) {
  * Export component
  */
 
-export default Small;
+export default Section;

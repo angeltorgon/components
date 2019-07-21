@@ -4,7 +4,7 @@
 
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import Small from './Small';
+import Header from './Header';
 
 /**
  * Hooks
@@ -16,13 +16,13 @@ afterEach(cleanup);
  * Assertions
  */
 
-describe('Small.js', () => {
+describe('Header.js', () => {
   test('it renders without errors', () => {
-    render(<Small />);
+    render(<Header />);
   });
 
-  test('it displays "Read me"', () => {
-    const { getByText } = render(<Small>Read me</Small>);
-    getByText('Read me');
+  test('it displays "Header Content"', () => {
+    const { getByText } = render(<Header>Header Content</Header>);
+    getByText('Header Content');
   });
 });

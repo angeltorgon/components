@@ -1,3 +1,3 @@
-import Heading from './Heading';
+import Audio from './Audio';
 
-export default Heading;
+export default Audio;

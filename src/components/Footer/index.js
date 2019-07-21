@@ -1,3 +1,3 @@
-import Heading from './Heading';
+import Footer from './Footer';
 
-export default Heading;
+export default Footer;

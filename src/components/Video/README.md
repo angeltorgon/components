@@ -1,3 +1,3 @@
-# Heading
+# Video
 
-These are headings for their sections.
+This is a video.

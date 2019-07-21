@@ -1,3 +1,3 @@
-# Heading
+# Footer
 
-These are headings for their sections.
+This is a footer.

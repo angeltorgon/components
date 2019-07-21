@@ -1,3 +1,3 @@
-# Small
+# Header
 
-This is a simple small tag.
+This is a header.
