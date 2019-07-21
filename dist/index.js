@@ -9,6 +9,12 @@ Object.defineProperty(exports, "Audio", {
     return _Audio["default"];
   }
 });
+Object.defineProperty(exports, "Button", {
+  enumerable: true,
+  get: function get() {
+    return _Button["default"];
+  }
+});
 Object.defineProperty(exports, "Code", {
   enumerable: true,
   get: function get() {
@@ -19,6 +25,12 @@ Object.defineProperty(exports, "Footer", {
   enumerable: true,
   get: function get() {
     return _Footer["default"];
+  }
+});
+Object.defineProperty(exports, "Form", {
+  enumerable: true,
+  get: function get() {
+    return _Form["default"];
   }
 });
 Object.defineProperty(exports, "Header", {
@@ -37,6 +49,18 @@ Object.defineProperty(exports, "Image", {
   enumerable: true,
   get: function get() {
     return _Image["default"];
+  }
+});
+Object.defineProperty(exports, "Input", {
+  enumerable: true,
+  get: function get() {
+    return _Input["default"];
+  }
+});
+Object.defineProperty(exports, "Label", {
+  enumerable: true,
+  get: function get() {
+    return _Label["default"];
   }
 });
 Object.defineProperty(exports, "Link", {
@@ -63,6 +87,12 @@ Object.defineProperty(exports, "Section", {
     return _Section["default"];
   }
 });
+Object.defineProperty(exports, "Select", {
+  enumerable: true,
+  get: function get() {
+    return _Select["default"];
+  }
+});
 Object.defineProperty(exports, "Small", {
   enumerable: true,
   get: function get() {
@@ -81,6 +111,12 @@ Object.defineProperty(exports, "Text", {
     return _Text["default"];
   }
 });
+Object.defineProperty(exports, "Textarea", {
+  enumerable: true,
+  get: function get() {
+    return _Textarea["default"];
+  }
+});
 Object.defineProperty(exports, "Video", {
   enumerable: true,
   get: function get() {
@@ -90,15 +126,23 @@ Object.defineProperty(exports, "Video", {
 
 var _Audio = _interopRequireDefault(require("./components/Audio"));
 
+var _Button = _interopRequireDefault(require("./components/Button"));
+
 var _Code = _interopRequireDefault(require("./components/Code"));
 
 var _Footer = _interopRequireDefault(require("./components/Footer"));
+
+var _Form = _interopRequireDefault(require("./components/Form"));
 
 var _Header = _interopRequireDefault(require("./components/Header"));
 
 var _Heading = _interopRequireDefault(require("./components/Heading"));
 
 var _Image = _interopRequireDefault(require("./components/Image"));
+
+var _Input = _interopRequireDefault(require("./components/Input"));
+
+var _Label = _interopRequireDefault(require("./components/Label"));
 
 var _Link = _interopRequireDefault(require("./components/Link"));
 
@@ -108,11 +152,15 @@ var _Pre = _interopRequireDefault(require("./components/Pre"));
 
 var _Section = _interopRequireDefault(require("./components/Section"));
 
+var _Select = _interopRequireDefault(require("./components/Select"));
+
 var _Small = _interopRequireDefault(require("./components/Small"));
 
 var _Strong = _interopRequireDefault(require("./components/Strong"));
 
 var _Text = _interopRequireDefault(require("./components/Text"));
+
+var _Textarea = _interopRequireDefault(require("./components/Textarea"));
 
 var _Video = _interopRequireDefault(require("./components/Video"));
 
