@@ -105,6 +105,42 @@ Object.defineProperty(exports, "Strong", {
     return _Strong["default"];
   }
 });
+Object.defineProperty(exports, "Table", {
+  enumerable: true,
+  get: function get() {
+    return _Table["default"];
+  }
+});
+Object.defineProperty(exports, "TableBody", {
+  enumerable: true,
+  get: function get() {
+    return _TableBody["default"];
+  }
+});
+Object.defineProperty(exports, "TableCell", {
+  enumerable: true,
+  get: function get() {
+    return _TableCell["default"];
+  }
+});
+Object.defineProperty(exports, "TableFooter", {
+  enumerable: true,
+  get: function get() {
+    return _TableFooter["default"];
+  }
+});
+Object.defineProperty(exports, "TableHead", {
+  enumerable: true,
+  get: function get() {
+    return _TableHead["default"];
+  }
+});
+Object.defineProperty(exports, "TableRow", {
+  enumerable: true,
+  get: function get() {
+    return _TableRow["default"];
+  }
+});
 Object.defineProperty(exports, "Text", {
   enumerable: true,
   get: function get() {
@@ -157,6 +193,18 @@ var _Select = _interopRequireDefault(require("./components/Select"));
 var _Small = _interopRequireDefault(require("./components/Small"));
 
 var _Strong = _interopRequireDefault(require("./components/Strong"));
+
+var _Table = _interopRequireDefault(require("./components/Table"));
+
+var _TableBody = _interopRequireDefault(require("./components/TableBody"));
+
+var _TableCell = _interopRequireDefault(require("./components/TableCell"));
+
+var _TableFooter = _interopRequireDefault(require("./components/TableFooter"));
+
+var _TableHead = _interopRequireDefault(require("./components/TableHead"));
+
+var _TableRow = _interopRequireDefault(require("./components/TableRow"));
 
 var _Text = _interopRequireDefault(require("./components/Text"));
 
