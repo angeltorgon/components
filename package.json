@@ -5,6 +5,7 @@
   "private": false,
   "main": "dist/index.js",
   "scripts": {
+    "test": "jest",
     "prebuild": "rimraf build",
     "build": "babel src --out-dir dist",
     "prepublish": "npm run build"
@@ -37,6 +38,7 @@
     "@testing-library/react": "^8.0.5",
     "babel-loader": "^8.0.6",
     "css-loader": "^3.0.0",
+    "jest": "^24.8.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "rimraf": "^2.6.3",
