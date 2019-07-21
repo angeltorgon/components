@@ -1,3 +1,3 @@
-import Text from './Text';
+import Label from './Label';
 
-export default Text;
+export default Label;

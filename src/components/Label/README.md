@@ -1,3 +1,3 @@
-# Text
+# Label
 
-This is a simple span tag.
+This is a simple label tag.

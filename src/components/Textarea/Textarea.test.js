@@ -4,7 +4,7 @@
 
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import Text from './Text';
+import Textarea from './Textarea';
 
 /**
  * Hooks
@@ -16,13 +16,13 @@ afterEach(cleanup);
  * Assertions
  */
 
-describe('Text.js', () => {
+describe('Textarea.js', () => {
   test('it renders without errors', () => {
-    render(<Text />);
+    render(<Textarea />);
   });
 
   test('it displays "Read me"', () => {
-    const { getByText } = render(<Text>Read me</Text>);
+    const { getByText } = render(<Textarea>Read me</Textarea>);
     getByText('Read me');
   });
 });

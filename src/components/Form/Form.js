@@ -8,9 +8,9 @@ import React from 'react';
  * Define component
  */
 
-function Text(props) {
+function Form(props) {
   return (
-    <span>{props.children}</span>
+    <form>{props.children}</form>
   )
 };
 
@@ -18,4 +18,4 @@ function Text(props) {
  * Export component
  */
 
-export default Text;
+export default Form;

@@ -8,9 +8,9 @@ import React from 'react';
  * Define component
  */
 
-function Text(props) {
+function Label(props) {
   return (
-    <span>{props.children}</span>
+    <label for={props.for}>{props.children}</label>
   )
 };
 
@@ -18,4 +18,4 @@ function Text(props) {
  * Export component
  */
 
-export default Text;
+export default Label;

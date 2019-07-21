@@ -1,3 +1,3 @@
-import Text from './Text';
+import Form from './Form';
 
-export default Text;
+export default Form;

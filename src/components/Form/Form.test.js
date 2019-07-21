@@ -4,7 +4,7 @@
 
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import Text from './Text';
+import Form from './Form';
 
 /**
  * Hooks
@@ -16,13 +16,13 @@ afterEach(cleanup);
  * Assertions
  */
 
-describe('Text.js', () => {
+describe('Form.js', () => {
   test('it renders without errors', () => {
-    render(<Text />);
+    render(<Form />);
   });
 
   test('it displays "Read me"', () => {
-    const { getByText } = render(<Text>Read me</Text>);
+    const { getByText } = render(<Form>Read me</Form>);
     getByText('Read me');
   });
 });

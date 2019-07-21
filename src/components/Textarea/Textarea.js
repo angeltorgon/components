@@ -8,9 +8,9 @@ import React from 'react';
  * Define component
  */
 
-function Text(props) {
+function Textarea(props) {
   return (
-    <span>{props.children}</span>
+    <textarea>{props.children}</textarea>
   )
 };
 
@@ -18,4 +18,4 @@ function Text(props) {
  * Export component
  */
 
-export default Text;
+export default Textarea;

@@ -1,3 +1,3 @@
-# Text
+# Textarea
 
-This is a simple span tag.
+This is a simple textarea tag.

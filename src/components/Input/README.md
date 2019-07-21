@@ -1,3 +1,3 @@
-# Text
+# Input
 
-This is a simple span tag.
+This is a simple input tag.

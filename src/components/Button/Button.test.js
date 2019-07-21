@@ -4,7 +4,7 @@
 
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import Text from './Text';
+import Button from './Button';
 
 /**
  * Hooks
@@ -16,13 +16,13 @@ afterEach(cleanup);
  * Assertions
  */
 
-describe('Text.js', () => {
+describe('Button.js', () => {
   test('it renders without errors', () => {
-    render(<Text />);
+    render(<Button />);
   });
 
-  test('it displays "Read me"', () => {
-    const { getByText } = render(<Text>Read me</Text>);
-    getByText('Read me');
+  test('it displays "Click me"', () => {
+    const { getByText } = render(<Button>Click me</Button>);
+    getByText('Click me');
   });
 });
