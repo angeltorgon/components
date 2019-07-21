@@ -9,8 +9,10 @@ import React from 'react';
  */
 
 function Link(props) {
+  const href_value = props.to || '#'
+
   return (
-    <a href="#">{props.children}</a>
+    <a href={href_value}>{props.children}</a>
   )
 };
 
