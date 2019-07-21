@@ -1,3 +1,3 @@
-# Text
+# TableFooter
 
-This is a simple span tag.
+This is a simple tfoot tag.

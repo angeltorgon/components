@@ -1,3 +1,3 @@
-import Text from './Text';
+import TableRow from './TableRow';
 
-export default Text;
+export default TableRow;

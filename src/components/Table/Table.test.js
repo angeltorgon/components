@@ -4,7 +4,7 @@
 
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import Text from './Text';
+import Table from './Table';
 
 /**
  * Hooks
@@ -16,13 +16,13 @@ afterEach(cleanup);
  * Assertions
  */
 
-describe('Text.js', () => {
+describe('Table.js', () => {
   test('it renders without errors', () => {
-    render(<Text />);
+    render(<Table />);
   });
 
   test('it displays "Read me"', () => {
-    const { getByText } = render(<Text>Read me</Text>);
+    const { getByText } = render(<Table><tbody><tr><td>Read me</td></tr></tbody></Table>);
     getByText('Read me');
   });
 });

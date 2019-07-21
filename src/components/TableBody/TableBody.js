@@ -8,9 +8,9 @@ import React from 'react';
  * Define component
  */
 
-function Text(props) {
+function TableBody(props) {
   return (
-    <span>{props.children}</span>
+    <tbody>{props.children}</tbody>
   )
 };
 
@@ -18,4 +18,4 @@ function Text(props) {
  * Export component
  */
 
-export default Text;
+export default TableBody;

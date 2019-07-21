@@ -1,3 +1,3 @@
-import Text from './Text';
+import TableBody from './TableBody';
 
-export default Text;
+export default TableBody;

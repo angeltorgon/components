@@ -1,3 +1,3 @@
-import Text from './Text';
+import TableFooter from './TableFooter';
 
-export default Text;
+export default TableFooter;

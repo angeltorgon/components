@@ -1,3 +1,3 @@
-import Text from './Text';
+import Table from './Table';
 
-export default Text;
+export default Table;

@@ -1,3 +1,3 @@
-import Text from './Text';
+import TableHead from './TableHead';
 
-export default Text;
+export default TableHead;
