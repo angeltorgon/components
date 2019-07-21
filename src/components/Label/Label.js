@@ -10,7 +10,7 @@ import React from 'react';
 
 function Label(props) {
   return (
-    <label for={props.for}>{props.children}</label>
+    <label htmlFor={props.for}>{props.children}</label>
   )
 };
 
