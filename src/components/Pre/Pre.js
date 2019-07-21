@@ -8,11 +8,9 @@ import React from 'react';
  * Define component
  */
 
-function Link(props) {
-  const href_value = props.to || '#'
-
+function Pre(props) {
   return (
-    <a href={href_value}>{props.children}</a>
+    <pre>{props.children}</pre>
   )
 };
 
@@ -20,4 +18,4 @@ function Link(props) {
  * Export component
  */
 
-export default Link;
+export default Pre;

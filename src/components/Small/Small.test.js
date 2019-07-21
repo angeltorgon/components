@@ -4,7 +4,7 @@
 
 import React from 'react';
 import { render, cleanup } from '@testing-library/react';
-import Link from './Link';
+import Small from './Small';
 
 /**
  * Hooks
@@ -16,13 +16,13 @@ afterEach(cleanup);
  * Assertions
  */
 
-describe('Link.js', () => {
+describe('Small.js', () => {
   test('it renders without errors', () => {
-    render(<Link />);
+    render(<Small />);
   });
 
   test('it displays "Click me"', () => {
-    const { getByText } = render(<Link>Click me</Link>);
+    const { getByText } = render(<Small>Click me</Small>);
     getByText('Click me');
   });
 });

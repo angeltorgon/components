@@ -1,3 +1,3 @@
-# Link
+# Strong
 
-This is a simple anchor tag.
+This is a simple strong tag.

@@ -1,3 +1,3 @@
-import Link from './Link';
+import Code from './Code';
 
-export default Link;
+export default Code;

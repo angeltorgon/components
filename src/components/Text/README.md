@@ -1,3 +1,3 @@
-# Link
+# Text
 
-This is a simple anchor tag.
+This is a simple span tag.

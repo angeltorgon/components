@@ -1,3 +1,3 @@
-# Link
+# Paragraph
 
-This is a simple anchor tag.
+This is a simple p tag.

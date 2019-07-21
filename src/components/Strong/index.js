@@ -1,3 +1,3 @@
-import Link from './Link';
+import Strong from './Strong';
 
-export default Link;
+export default Strong;

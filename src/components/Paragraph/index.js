@@ -1,3 +1,3 @@
-import Link from './Link';
+import Paragraph from './Paragraph';
 
-export default Link;
+export default Paragraph;

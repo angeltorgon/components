@@ -1,3 +1,3 @@
-import Link from './Link';
+import Pre from './Pre';
 
-export default Link;
+export default Pre;

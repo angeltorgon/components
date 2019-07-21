@@ -1,3 +1,3 @@
-import Link from './Link';
+import Small from './Small';
 
-export default Link;
+export default Small;
