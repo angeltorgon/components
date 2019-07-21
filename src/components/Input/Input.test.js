@@ -23,9 +23,10 @@ describe('Input.js', () => {
 
   test('it displays "Read me"', () => {
     const { container } = render(<Input id="input-username" type="text" name="username" value="wurde"></Input>);
-    const input = container.getElementById('input-username');
-    expect(input).toBeTruthy();
-    expect(input.name).toBe('username');
-    expect(input.value).toBe('wurde');
+
+    const inputs = container.getElementsByTagName('input');
+    expect(inputs.length).toBe(1);
+    expect(inputs[0].name).toBe('username');
+    expect(inputs[0].value).toBe('wurde');
   });
 });
