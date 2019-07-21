@@ -17,8 +17,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
  * Define component
  */
 function Link(props) {
+  var href_value = props.to || '#';
   return _react["default"].createElement("a", {
-    href: "#"
+    href: href_value
   }, props.children);
 }
 
