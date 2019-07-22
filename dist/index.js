@@ -135,6 +135,12 @@ Object.defineProperty(exports, "TableHead", {
     return _TableHead["default"];
   }
 });
+Object.defineProperty(exports, "TableHeadCell", {
+  enumerable: true,
+  get: function get() {
+    return _TableHeadCell["default"];
+  }
+});
 Object.defineProperty(exports, "TableRow", {
   enumerable: true,
   get: function get() {
@@ -203,6 +209,8 @@ var _TableCell = _interopRequireDefault(require("./components/TableCell"));
 var _TableFooter = _interopRequireDefault(require("./components/TableFooter"));
 
 var _TableHead = _interopRequireDefault(require("./components/TableHead"));
+
+var _TableHeadCell = _interopRequireDefault(require("./components/TableHeadCell"));
 
 var _TableRow = _interopRequireDefault(require("./components/TableRow"));
 
