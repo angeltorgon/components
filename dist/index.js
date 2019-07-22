@@ -69,6 +69,18 @@ Object.defineProperty(exports, "Link", {
     return _Link["default"];
   }
 });
+Object.defineProperty(exports, "List", {
+  enumerable: true,
+  get: function get() {
+    return _List["default"];
+  }
+});
+Object.defineProperty(exports, "Nav", {
+  enumerable: true,
+  get: function get() {
+    return _Nav["default"];
+  }
+});
 Object.defineProperty(exports, "Paragraph", {
   enumerable: true,
   get: function get() {
@@ -187,6 +199,10 @@ var _Input = _interopRequireDefault(require("./components/Input"));
 var _Label = _interopRequireDefault(require("./components/Label"));
 
 var _Link = _interopRequireDefault(require("./components/Link"));
+
+var _List = _interopRequireDefault(require("./components/List"));
+
+var _Nav = _interopRequireDefault(require("./components/Nav"));
 
 var _Paragraph = _interopRequireDefault(require("./components/Paragraph"));
 
