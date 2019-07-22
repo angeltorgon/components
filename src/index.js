@@ -20,6 +20,7 @@ export { default as TableBody } from './components/TableBody';
 export { default as TableCell } from './components/TableCell';
 export { default as TableFooter } from './components/TableFooter';
 export { default as TableHead } from './components/TableHead';
+export { default as TableHeadCell } from './components/TableHeadCell';
 export { default as TableRow } from './components/TableRow';
 export { default as Text } from './components/Text';
 export { default as Textarea } from './components/Textarea';
