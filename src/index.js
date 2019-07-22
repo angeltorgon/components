@@ -9,6 +9,8 @@ export { default as Image } from './components/Image';
 export { default as Input } from './components/Input';
 export { default as Label } from './components/Label';
 export { default as Link } from './components/Link';
+export { default as List } from './components/List';
+export { default as Nav } from './components/Nav';
 export { default as Paragraph } from './components/Paragraph';
 export { default as Pre } from './components/Pre';
 export { default as Section } from './components/Section';
