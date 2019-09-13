@@ -1,1 +1,1 @@
-# Components - Vision Document
+# Components - Vision
