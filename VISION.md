@@ -6,6 +6,10 @@ _*Developing and communicating a long-term vision both justifies the work and gu
 
 The best code is no code at all [[0]](https://blog.codinghorror.com/the-best-code-is-no-code-at-all), but the second best thing is reusable code. Component-driven development replaces one-off solutions with building a cross-application asset with compounding value. A well encapsulated component is plug-n-play with sane defaults.
 
+## Modularity
+
+Supporting more people, more devices, and more contexts is a nontrivial challenge. Atomic Design [[2]](https://shop.bradfrost.com) is the solution. Using abstraction you can breakdown and build up any application you need with ease.
+
 ## Accessibility
 
 The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect [[1]](https://www.w3.org/standards/webdesign/accessibility). Make components accessible. Use best practices for supporting a diverse range of hearing, movement, sight, and cognitive ability.
@@ -14,3 +18,4 @@ The power of the Web is in its universality. Access by everyone regardless of di
 
 [0] https://blog.codinghorror.com/the-best-code-is-no-code-at-all
 [1] https://www.w3.org/standards/webdesign/accessibility
+[2] https://shop.bradfrost.com
