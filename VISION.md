@@ -16,6 +16,6 @@ The power of the Web is in its universality. Access by everyone regardless of di
 
 ## References
 
-[0] https://blog.codinghorror.com/the-best-code-is-no-code-at-all
-[1] https://www.w3.org/standards/webdesign/accessibility
-[2] https://shop.bradfrost.com
+- [0] https://blog.codinghorror.com/the-best-code-is-no-code-at-all
+- [1] https://www.w3.org/standards/webdesign/accessibility
+- [2] https://shop.bradfrost.com
