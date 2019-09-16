@@ -2,7 +2,7 @@
 
 React components.
 
-### Getting started
+## Getting started
 
 ```
 npm install --save @wurde/components
@@ -18,6 +18,6 @@ import { Link } from '@wurde/components'
 
 There is a vision that guides development. Learn more in [VISION.md](VISION.md).
 
-### License
+## License
 
 [MIT licensed](./LICENSE)
