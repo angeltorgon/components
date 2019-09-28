@@ -10,7 +10,7 @@ import styled from 'styled-components';
 
 function calc_width(n) {
   if (n) {
-    n = Math.round((size / 12) * 10e7) / 10e5
+    n = Math.round((n / 12) * 10e7) / 10e5
     if (n < 0) n = 0
     if (n > 100) n = 100
     return `${n}%`
@@ -19,8 +19,7 @@ function calc_width(n) {
   }
 }
 
-function calc_spacing(n) {
-  if (n <= 0) return
+function calc_spacing(n = 0) {
   return `padding: ${n * 4}px;`
 }
 
@@ -29,8 +28,11 @@ function calc_spacing(n) {
  */
 
 const Column = styled.div`
-  flex: 0 0 ${props => calc_width(props.width)};
+  flex-grow: ${props => props.grow ? props.grow : 0};
+  flex-shrink: ${props => props.shrink ? props.shrink : 0};
+  flex-basis: ${props => calc_width(props.width)};
   max-width: ${props => calc_width(props.width)};
+  ${props => props.order ? `order: ${props.order};` : ''};
   ${props => calc_spacing(props.spacing)}
 `
 

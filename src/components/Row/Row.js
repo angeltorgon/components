@@ -9,9 +9,9 @@ import styled from 'styled-components';
  */
 
 const Row = styled.div`
-  display: flex;
+  display: ${props => props.display ? props.display : 'flex'};
   flex-direction: ${props => props.direction ? props.direction : 'row'};
-  flex-wrap: ${props => props.wrap ? props.wrap : 'wrap'};
+  flex-wrap: ${props => props.wrap ? props.wrap : 'nowrap'};
 `
 
 /**
