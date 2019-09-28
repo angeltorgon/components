@@ -31,7 +31,6 @@ const Column = styled.div`
   flex-grow: ${props => props.grow ? props.grow : 0};
   flex-shrink: ${props => props.shrink ? props.shrink : 0};
   flex-basis: ${props => calc_width(props.width)};
-  max-width: ${props => calc_width(props.width)};
   align-self: ${props => props.alignSelf ? props.alignSelf : 'auto'};
   ${props => props.order ? `order: ${props.order};` : ''};
   ${props => calc_spacing(props.spacing)}
