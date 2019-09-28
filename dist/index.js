@@ -27,6 +27,12 @@ Object.defineProperty(exports, "Code", {
     return _Code["default"];
   }
 });
+Object.defineProperty(exports, "Column", {
+  enumerable: true,
+  get: function get() {
+    return _Column["default"];
+  }
+});
 Object.defineProperty(exports, "Footer", {
   enumerable: true,
   get: function get() {
@@ -97,6 +103,12 @@ Object.defineProperty(exports, "Pre", {
   enumerable: true,
   get: function get() {
     return _Pre["default"];
+  }
+});
+Object.defineProperty(exports, "Row", {
+  enumerable: true,
+  get: function get() {
+    return _Row["default"];
   }
 });
 Object.defineProperty(exports, "Section", {
@@ -192,6 +204,8 @@ var _Container = _interopRequireDefault(require("./components/Container"));
 
 var _Code = _interopRequireDefault(require("./components/Code"));
 
+var _Column = _interopRequireDefault(require("./components/Column"));
+
 var _Footer = _interopRequireDefault(require("./components/Footer"));
 
 var _Form = _interopRequireDefault(require("./components/Form"));
@@ -215,6 +229,8 @@ var _Nav = _interopRequireDefault(require("./components/Nav"));
 var _Paragraph = _interopRequireDefault(require("./components/Paragraph"));
 
 var _Pre = _interopRequireDefault(require("./components/Pre"));
+
+var _Row = _interopRequireDefault(require("./components/Row"));
 
 var _Section = _interopRequireDefault(require("./components/Section"));
 
