@@ -1,5 +1,6 @@
 export { default as Audio } from './components/Audio';
 export { default as Button } from './components/Button';
+export { default as Container } from './components/Container';
 export { default as Code } from './components/Code';
 export { default as Footer } from './components/Footer';
 export { default as Form } from './components/Form';
