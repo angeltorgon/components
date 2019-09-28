@@ -14,6 +14,7 @@ const Row = styled.div`
   flex-wrap: ${props => props.wrap ? props.wrap : 'nowrap'};
   justify-content: ${props => props.justifyContent ? props.justifyContent : 'flex-start'};
   align-items: ${props => props.alignItems ? props.alignItems : 'stretch'};
+  align-content: ${props => props.alignContent ? props.alignContent : 'stretch'};
 `
 
 /**
