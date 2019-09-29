@@ -1,3 +1,3 @@
 # Section
 
-This is a section.
+This is a `<section>` tag.

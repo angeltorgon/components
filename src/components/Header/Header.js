@@ -2,17 +2,15 @@
  * Dependencies
  */
 
-import React from 'react';
+import styled from 'styled-components';
 
 /**
  * Define component
  */
 
-function Header(props) {
-  return (
-    <header>{props.children}</header>
-  )
-};
+const Header = styled.header`
+  width: 100%;
+`
 
 /**
  * Export component

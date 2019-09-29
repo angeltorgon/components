@@ -2,17 +2,15 @@
  * Dependencies
  */
 
-import React from 'react';
+import styled from 'styled-components';
 
 /**
  * Define component
  */
 
-function Section(props) {
-  return (
-    <section>{props.children}</section>
-  )
-};
+const Section = styled.section`
+  width: 100%;
+`
 
 /**
  * Export component
