@@ -2,17 +2,14 @@
  * Dependencies
  */
 
-import React from 'react';
+import styled from 'styled-components';
 
 /**
  * Define component
  */
 
-function Text(props) {
-  return (
-    <span>{props.children}</span>
-  )
-};
+const Text = styled.span`
+`
 
 /**
  * Export component
