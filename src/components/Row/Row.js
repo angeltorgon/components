@@ -9,6 +9,8 @@ import styled from 'styled-components';
  */
 
 const Row = styled.div`
+  box-sizing: border-box;
+
   display: ${props => props.display ? props.display : 'flex'};
   flex-direction: ${props => props.direction ? props.direction : 'row'};
   flex-wrap: ${props => props.wrap ? props.wrap : 'nowrap'};

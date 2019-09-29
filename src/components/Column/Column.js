@@ -28,6 +28,8 @@ function calc_spacing(n = 0) {
  */
 
 const Column = styled.div`
+  box-sizing: border-box;
+
   flex-grow: ${props => props.grow ? props.grow : 0};
   flex-shrink: ${props => props.shrink ? props.shrink : 0};
   flex-basis: ${props => calc_width(props.width)};
