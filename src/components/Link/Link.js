@@ -2,19 +2,14 @@
  * Dependencies
  */
 
-import React from 'react';
+import styled from 'styled-components';
 
 /**
  * Define component
  */
 
-function Link(props) {
-  const href_value = props.to || '#'
-
-  return (
-    <a href={href_value}>{props.children}</a>
-  )
-};
+const Link = styled.a`
+`
 
 /**
  * Export component
