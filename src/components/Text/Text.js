@@ -9,6 +9,7 @@ import styled from 'styled-components';
  */
 
 const Text = styled.span`
+  ${props => props.weight ? `font-weight: ${props.weight};` : 'font-weight: normal;'}
 `
 
 /**
