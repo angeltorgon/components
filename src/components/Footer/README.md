@@ -1,3 +1,3 @@
 # Footer
 
-This is a footer.
+This is a `<footer>` tag.
