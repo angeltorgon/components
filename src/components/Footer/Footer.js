@@ -2,17 +2,15 @@
  * Dependencies
  */
 
-import React from 'react';
+import styled from 'styled-components';
 
 /**
  * Define component
  */
 
-function Footer(props) {
-  return (
-    <footer>{props.children}</footer>
-  )
-};
+const Footer = styled.footer`
+  width: 100%;
+`
 
 /**
  * Export component
