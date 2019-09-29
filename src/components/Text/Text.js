@@ -11,6 +11,7 @@ import styled from 'styled-components';
 const Text = styled.span`
   ${props => props.weight ? `font-weight: ${props.weight};` : 'font-weight: normal;'}
   ${props => props.size ? `font-size: ${props.size};` : 'font-size: medium;'}
+  ${props => props.color ? `color: ${props.color};` : 'color: inherit;'}
 `
 
 /**
