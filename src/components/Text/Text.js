@@ -9,12 +9,13 @@ import styled from 'styled-components';
  */
 
 const Text = styled.span`
-  ${props => props.fontFamily ? `font-family: ${props.fontFamily};` : 'font-family: inherit;'}
-  ${props => props.lineHeight ? `line-height: ${props.lineHeight};` : 'line-height: inherit;'}
-  ${props => props.letterSpacing ? `letter-spacing: ${props.letterSpacing};` : 'letter-spacing: inherit;'}
-  ${props => props.weight ? `font-weight: ${props.weight};` : 'font-weight: inherit;'}
-  ${props => props.size ? `font-size: ${props.size};` : 'font-size: inherit;'}
-  ${props => props.color ? `color: ${props.color};` : 'color: inherit;'}
+  font-family: ${props => props.fontFamily ? props.fontFamily : 'inherit'};
+  line-height: ${props => props.lineHeight ? props.lineHeight : 'inherit'};
+  letter-spacing: ${props => props.letterSpacing ? props.letterSpacing : 'inherit'};
+  font-weight: ${props => props.weight ? props.weight : 'inherit'};
+  font-size: ${props => props.size ? props.size : 'inherit'};
+  color: ${props => props.color ? props.color : 'inherit'};
+  background-color: ${props => props.backgroundColor ? props.backgroundColor : 'inherit'};
 `
 
 /**

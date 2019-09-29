@@ -3,6 +3,22 @@
  */
 
 import React from 'react';
+import styled from 'styled-components';
+
+/**
+ * Define styles
+ */
+
+const Component = styled.h2`
+  font-family: ${props => props.fontFamily ? props.fontFamily : 'inherit'};
+  line-height: ${props => props.lineHeight ? props.lineHeight : 'inherit'};
+  letter-spacing: ${props => props.letterSpacing ? props.letterSpacing : 'inherit'};
+  text-align: ${props => props.align ? props.align : 'inherit'};
+  font-weight: ${props => props.weight ? props.weight : 'inherit'};
+  font-size: ${props => props.size ? props.size : 'inherit'};
+  color: ${props => props.color ? props.color : 'inherit'};
+  background-color: ${props => props.backgroundColor ? props.backgroundColor : 'inherit'};
+`
 
 /**
  * Define component
@@ -12,31 +28,31 @@ function Heading(props) {
   switch (props.type) {
     case 'h1':
       return (
-        <h1>{props.children}</h1>
+        <Component as="h1" {...props}>{props.children}</Component>
       )
     case 'h2':
       return (
-        <h2>{props.children}</h2>
+        <Component as="h2" {...props}>{props.children}</Component>
       )
     case 'h3':
       return (
-        <h3>{props.children}</h3>
+        <Component as="h3" {...props}>{props.children}</Component>
       )
     case 'h4':
       return (
-        <h4>{props.children}</h4>
+        <Component as="h4" {...props}>{props.children}</Component>
       )
     case 'h5':
       return (
-        <h5>{props.children}</h5>
+        <Component as="h5" {...props}>{props.children}</Component>
       )
     case 'h6':
       return (
-        <h6>{props.children}</h6>
+        <Component as="h6" {...props}>{props.children}</Component>
       )
     default:
       return (
-        <h2>{props.children}</h2>
+        <Component as="h2" {...props}>{props.children}</Component>
       )
   }
 };
