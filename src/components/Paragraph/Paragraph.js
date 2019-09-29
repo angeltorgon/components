@@ -9,15 +9,16 @@ import styled from 'styled-components';
  */
 
 const Paragraph = styled.p`
-  font-family: ${props => props.fontFamily ? props.fontFamily : 'inherit'};
-  line-height: ${props => props.lineHeight ? props.lineHeight : 'inherit'};
-  letter-spacing: ${props => props.letterSpacing ? props.letterSpacing : 'inherit'};
-  text-align: ${props => props.align ? props.align : 'inherit'};
-  font-weight: ${props => props.weight ? props.weight : 'inherit'};
-  font-size: ${props => props.size ? props.size : 'inherit'};
-  color: ${props => props.color ? props.color : 'inherit'};
-  background-color: ${props => props.backgroundColor ? props.backgroundColor : 'inherit'};
-`
+  font-family: ${props => props.fontFamily ? props.fontFamily : '-apple-system, "Roboto", "Ubuntu", "Helvetica", "Arial", sans-serif'};
+
+  ${props => props.lineHeight ? `line-height: ${props.lineHeight};` : ''}
+  ${props => props.letterSpacing ? `letter-spacing: ${props.letterSpacing};` : ''}
+  ${props => props.align ? `text-align: ${props.align};` : ''}
+  ${props => props.weight ? `font-weight: ${props.weight};` : ''}
+  ${props => props.size ? `font-size: ${props.size};` : ''}
+  ${props => props.color ? `color: ${props.color};` : ''}
+  ${props => props.backgroundColor ? `background-color: ${props.backgroundColor};` : ''}
+  `
 
 /**
  * Export component

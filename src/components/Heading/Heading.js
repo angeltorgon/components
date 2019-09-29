@@ -12,15 +12,15 @@ import styled from 'styled-components';
 const Component = styled.h2`
   font-weight: ${props => props.weight ? props.weight : '400'};
   margin: ${props => props.margin ? props.margin : '0'};
+  font-family: ${props => props.fontFamily ? props.fontFamily : '-apple-system, "Roboto", "Ubuntu", "Helvetica", "Arial", sans-serif'};
 
-  font-family: ${props => props.fontFamily ? props.fontFamily : ''};
   line-height: ${props => props.lineHeight ? props.lineHeight : ''};
   letter-spacing: ${props => props.letterSpacing ? props.letterSpacing : ''};
   text-align: ${props => props.align ? props.align : ''};
   color: ${props => props.color ? props.color : ''};
   background-color: ${props => props.backgroundColor ? props.backgroundColor : ''};
 `
-  
+
 const ComponentH1 = styled(Component)`
   font-size: ${props => props.size ? props.size : '4.5rem'};
 `
