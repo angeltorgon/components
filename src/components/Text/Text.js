@@ -10,8 +10,10 @@ import styled from 'styled-components';
 
 const Text = styled.span`
   ${props => props.fontFamily ? `font-family: ${props.fontFamily};` : 'font-family: inherit;'}
-  ${props => props.weight ? `font-weight: ${props.weight};` : 'font-weight: normal;'}
-  ${props => props.size ? `font-size: ${props.size};` : 'font-size: medium;'}
+  ${props => props.lineHeight ? `line-height: ${props.lineHeight};` : 'line-height: inherit;'}
+  ${props => props.letterSpacing ? `letter-spacing: ${props.letterSpacing};` : 'letter-spacing: inherit;'}
+  ${props => props.weight ? `font-weight: ${props.weight};` : 'font-weight: inherit;'}
+  ${props => props.size ? `font-size: ${props.size};` : 'font-size: inherit;'}
   ${props => props.color ? `color: ${props.color};` : 'color: inherit;'}
 `
 
