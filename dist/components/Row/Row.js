@@ -10,7 +10,7 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  display: ", ";\n  flex-direction: ", ";\n  flex-wrap: ", ";\n  justify-content: ", ";\n  align-items: ", ";\n  align-content: ", ";\n"]);
+  var data = _taggedTemplateLiteral(["\n  box-sizing: border-box;\n\n  display: ", ";\n  flex-direction: ", ";\n  flex-wrap: ", ";\n  justify-content: ", ";\n  align-items: ", ";\n  align-content: ", ";\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -29,7 +29,7 @@ var Row = _styledComponents["default"].div(_templateObject(), function (props) {
 }, function (props) {
   return props.direction ? props.direction : 'row';
 }, function (props) {
-  return props.wrap ? props.wrap : 'nowrap';
+  return props.wrap ? props.wrap : 'wrap';
 }, function (props) {
   return props.justifyContent ? props.justifyContent : 'flex-start';
 }, function (props) {

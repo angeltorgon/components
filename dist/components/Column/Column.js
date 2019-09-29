@@ -10,7 +10,7 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  flex-grow: ", ";\n  flex-shrink: ", ";\n  flex-basis: ", ";\n  align-self: ", ";\n  ", ";\n  ", "\n"]);
+  var data = _taggedTemplateLiteral(["\n  box-sizing: border-box;\n\n  flex-grow: ", ";\n  flex-shrink: ", ";\n  flex-basis: ", ";\n  align-self: ", ";\n  ", ";\n  ", "\n"]);
 
   _templateObject = function _templateObject() {
     return data;
