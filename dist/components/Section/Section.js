@@ -5,25 +5,30 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
-var _react = _interopRequireDefault(require("react"));
+var _styledComponents = _interopRequireDefault(require("styled-components"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-/**
- * Dependencies
- */
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n  width: 100%;\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 /**
  * Define component
  */
-function Section(props) {
-  return _react["default"].createElement("section", null, props.children);
-}
-
-;
+var Section = _styledComponents["default"].section(_templateObject());
 /**
  * Export component
  */
+
 
 var _default = Section;
 exports["default"] = _default;
