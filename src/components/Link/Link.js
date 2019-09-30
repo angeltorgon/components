@@ -37,6 +37,8 @@ const underlineAlways = `
  */
 
 const Link = styled.a`
+  outline: 0;
+
   color: ${props => props.color ? props.color : '#348FF0'};
   background-color: ${props => props.backgroundColor ? props.backgroundColor : 'transparent'};
   font-weight: ${props => props.weight ? props.weight : '500'};
