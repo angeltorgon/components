@@ -1,3 +1,3 @@
 # Label
 
-This is a simple label tag.
+This is a simple `<label>` tag.

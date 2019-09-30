@@ -2,17 +2,16 @@
  * Dependencies
  */
 
-import React from 'react';
+import styled from 'styled-components';
 
 /**
  * Define component
  */
 
-function Label(props) {
-  return (
-    <label htmlFor={props.for}>{props.children}</label>
-  )
-};
+const Label = styled.label`
+  display: inline-block;
+  margin-bottom: .5rem;
+`
 
 /**
  * Export component
