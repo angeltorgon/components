@@ -37,13 +37,13 @@ const underlineAlways = `
  */
 
 const Link = styled.a`
-  color: ${props => props.color ? props.color : '#5A6ED2'};
+  color: ${props => props.color ? props.color : '#348FF0'};
   background-color: ${props => props.backgroundColor ? props.backgroundColor : 'transparent'};
   font-weight: ${props => props.weight ? props.weight : '500'};
   transition: ${props => props.transition ? props.transition : 'all 0.2s ease'};
   
   &:hover {
-    color: ${props => props.hoverColor ? props.hoverColor : '#5163BD'};
+    color: ${props => props.hoverColor ? props.hoverColor : '#2E80D8'};
   }
 
   ${props => {
