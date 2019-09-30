@@ -9,8 +9,7 @@ import styled from 'styled-components';
  */
 
 const FormGroup = styled.div`
-  display: inline-block;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
 `
 
 /**
