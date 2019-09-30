@@ -5,6 +5,7 @@ export { default as Code } from './components/Code';
 export { default as Column } from './components/Column';
 export { default as Footer } from './components/Footer';
 export { default as Form } from './components/Form';
+export { default as FormGroup } from './components/FormGroup';
 export { default as Header } from './components/Header';
 export { default as Heading } from './components/Heading';
 export { default as Image } from './components/Image';
