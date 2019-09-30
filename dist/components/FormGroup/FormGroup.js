@@ -10,7 +10,7 @@ var _styledComponents = _interopRequireDefault(require("styled-components"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  display: inline-block;\n  margin-bottom: .5rem;\n"]);
+  var data = _taggedTemplateLiteral(["\n  margin-bottom: 1rem;\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -24,11 +24,11 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 /**
  * Define component
  */
-var Label = _styledComponents["default"].label(_templateObject());
+var FormGroup = _styledComponents["default"].div(_templateObject());
 /**
  * Export component
  */
 
 
-var _default = Label;
+var _default = FormGroup;
 exports["default"] = _default;

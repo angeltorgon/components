@@ -1,3 +1,3 @@
 # Button
 
-This is a simple button tag.
+This is a simple `<button>` tag.

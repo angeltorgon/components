@@ -8,13 +8,12 @@ import styled from 'styled-components';
  * Define component
  */
 
-const Label = styled.label`
-  display: inline-block;
-  margin-bottom: .5rem;
+const FormGroup = styled.div`
+  margin-bottom: 1rem;
 `
 
 /**
  * Export component
  */
 
-export default Label;
+export default FormGroup;
