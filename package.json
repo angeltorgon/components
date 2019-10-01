@@ -8,7 +8,9 @@
     "test": "jest",
     "prebuild": "rimraf build",
     "build": "babel src --out-dir dist",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "repository": {
     "type": "git",
@@ -34,6 +36,11 @@
     "@babel/node": "^7.5.0",
     "@babel/preset-env": "^7.5.4",
     "@babel/preset-react": "^7.0.0",
+    "@storybook/addon-actions": "^5.2.0",
+    "@storybook/addon-links": "^5.2.0",
+    "@storybook/addons": "^5.2.0",
+    "@storybook/preset-create-react-app": "^1.0.0-beta.3",
+    "@storybook/react": "^5.2.0",
     "@testing-library/jest-dom": "^4.0.0",
     "@testing-library/react": "^8.0.5",
     "babel-loader": "^8.0.6",
