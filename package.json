@@ -10,7 +10,8 @@
     "build": "babel src --out-dir dist",
     "prepublishOnly": "npm run build",
     "storybook": "start-storybook",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "lint": "eslint src --cache"
   },
   "repository": {
     "type": "git",
