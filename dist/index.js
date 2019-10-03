@@ -45,6 +45,12 @@ Object.defineProperty(exports, "Form", {
     return _Form["default"];
   }
 });
+Object.defineProperty(exports, "FormGroup", {
+  enumerable: true,
+  get: function get() {
+    return _FormGroup["default"];
+  }
+});
 Object.defineProperty(exports, "Header", {
   enumerable: true,
   get: function get() {
@@ -209,6 +215,8 @@ var _Column = _interopRequireDefault(require("./components/Column"));
 var _Footer = _interopRequireDefault(require("./components/Footer"));
 
 var _Form = _interopRequireDefault(require("./components/Form"));
+
+var _FormGroup = _interopRequireDefault(require("./components/FormGroup"));
 
 var _Header = _interopRequireDefault(require("./components/Header"));
 
