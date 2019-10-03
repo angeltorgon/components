@@ -18,7 +18,7 @@ const Paragraph = styled.p`
   ${props => props.size ? `font-size: ${props.size};` : ''}
   ${props => props.color ? `color: ${props.color};` : ''}
   ${props => props.backgroundColor ? `background-color: ${props.backgroundColor};` : ''}
-  `
+`
 
 /**
  * Export component
